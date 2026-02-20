@@ -1,0 +1,20 @@
+{
+    "name": "patryknamyslak/focal-core",
+    "description": "Core logic for the Focal PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PatrykNamyslak\\FocalCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patryk",
+            "email": "contact@patryknamyslak.pl"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
